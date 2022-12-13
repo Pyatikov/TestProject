@@ -31,6 +31,7 @@ namespace TestProject
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.volkovButton = new System.Windows.Forms.Button();
+            this.PyatikovButton = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -41,6 +42,7 @@ namespace TestProject
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.Controls.Add(this.PyatikovButton, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.volkovButton, 0, 0);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(13, 13);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -63,6 +65,16 @@ namespace TestProject
             this.volkovButton.UseVisualStyleBackColor = true;
             this.volkovButton.Click += new System.EventHandler(this.VolkovButton_Click);
             // 
+            // PyatikovButton
+            // 
+            this.PyatikovButton.Location = new System.Drawing.Point(159, 3);
+            this.PyatikovButton.Name = "PyatikovButton";
+            this.PyatikovButton.Size = new System.Drawing.Size(75, 23);
+            this.PyatikovButton.TabIndex = 3;
+            this.PyatikovButton.Text = "Пятиков";
+            this.PyatikovButton.UseVisualStyleBackColor = true;
+            this.PyatikovButton.Click += new System.EventHandler(this.PyatikovButton_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -80,6 +92,7 @@ namespace TestProject
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Button volkovButton;
+        private System.Windows.Forms.Button PyatikovButton;
     }
 }
 

@@ -23,5 +23,11 @@ namespace TestProject
             VolkovForm form = new VolkovForm();
             form.ShowDialog();
         }
+
+        private void PyatikovButton_Click(object sender, EventArgs e)
+        {
+            PyatikovForm form = new PyatikovForm();
+            form.ShowDialog();
+        }
     }
 }
